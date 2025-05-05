@@ -12,7 +12,7 @@ class StockMovement extends Model
         'product_id',
         'warehouse_id',
         'quantity',
-        'direction',     // 'in' yoki 'out'
+        'direction',     // 'in' | 'out'
         'description',
     ];
 

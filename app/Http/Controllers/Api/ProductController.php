@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     /**
-     * Har bir mahsulotni omborlardagi qoldig'i bilan qaytaradi.
+     * Возвращает список всех товаров с остатками по каждому складу.
      *
      * @return \Illuminate\Http\JsonResponse
      */

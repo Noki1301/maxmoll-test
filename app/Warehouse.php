@@ -11,7 +11,7 @@ class Warehouse extends Model
     protected $fillable = ['name'];
 
     /**
-     * Ombordagi barcha stoklar.
+     * Все складские запасы.
      */
     public function stocks()
     {
@@ -19,7 +19,7 @@ class Warehouse extends Model
     }
 
     /**
-     * Ombordagi barcha buyurtmalar.
+     * Все заказы склада.
      */
     public function orders()
     {

@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class WarehouseController extends Controller
 {
     /**
-     * Omborlar ro'yxatini qaytaradi.
+     * Возвращает список складов.
      *
      * @return \Illuminate\Http\JsonResponse
      */

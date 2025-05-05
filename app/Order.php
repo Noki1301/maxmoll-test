@@ -16,7 +16,7 @@ class Order extends Model
 		'status',
 	];
 
-	public $timestamps = false; // chunki created_at va completed_at qo‘lda boshqariladi
+	public $timestamps = false; // Отключаем автоматическое управление временными метками
 
 	public function warehouse()
 	{
