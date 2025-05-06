@@ -12,7 +12,7 @@ Laravel-приложение, реализующее REST API для управ�
 ## Как запустить
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/maxmoll-test.git
+git clone https://github.com/Noki1301/maxmoll-test.git
 cd maxmoll-test
 composer install
 cp .env.example .env
